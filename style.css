@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(243, 213, 176);
+}
+
+.page {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.topheader {
+  width: 1200px;
+  justify-content: space-between;
+}
+
+.header-menu {
+  display: inline-flex;
+  width: 1100px;
+  justify-content: space-between;
+}
+.header-item {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 250px;
+  text-align: center;
+  font-size: 25px;
+  color: rgb(223, 141, 41);
+}
+.main-menu {
+  width: 1200px;
+  display: inline-flex;
+}
+.main-content {
+  width: 1200px;
+  display: inline-flex;
+}
+.picintop {
+  margin-bottom: 25px;
+}
+.posttitle {
+  color: rgb(223, 141, 41);
+  margin-bottom: 25px;
+}
+.posttext {
+  color: rgb(223, 141, 41);
+  width: 700px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+.hotpost {
+  width: 800px;
+  margin-bottom: 15px;
+  padding-bottom: 25px;
+}
+.aside {
+  width: 400px;
+  display: inline-flex;
+  flex-flow: column nowrap;
+  padding: 10px 10px 10px 10px;
+  color: rgb(223, 141, 41);
+}
+.asidetitle {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.otherpost {
+  display: inline-flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom-style: dotted;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  align-items: center;
+}
+.otherposttitle {
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  color: rgb(223, 141, 41);
+  font-size: 25px;
+}
+.footer {
+  display: inline-flex;
+  height: 200px;
+  width: 1200px;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-item {
+  color: rgb(223, 141, 41);
+  font-size: 25px;
+  width: 150px;
+  text-align: center;
+}
